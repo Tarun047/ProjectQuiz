@@ -24,6 +24,8 @@ op=[x.strip() for x in op]
 c=[]
 for chunk in each_chunck(file,seperator='*\n'):
     c.append(chunk)
+del c[0]
+print(c[0])
 for i in range(0,n):
     num=random.randint(0,n-1)
     while(s[num]==1):
