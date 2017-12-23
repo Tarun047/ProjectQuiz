@@ -1,4 +1,18 @@
 a)Tarun b)Varun c)Charan d)Kiran
+*
 a)Obama b)George Bush c)Bill Clinton d)Osama Bin Laden
+*
 a)Programming is Fun b)Programming is Boring c)Programming is Cool d)Programming is Superb
+*
 a)Zebra b)Lion c)Tiger d)Parrot
+*
+a)None b)NULL c)AKa d)IO
+*
+a)Pig b)Colton c)Rayman d)GoHome
+*
+a)hai b)Bye c)oye d)oepw
+*
+a)IOT b)ML c)AI d)PAOD
+*
+a)No more options here b)0 c)40 d)-1
+*

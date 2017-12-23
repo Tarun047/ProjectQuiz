@@ -1,8 +1,26 @@
-1.Who is the inventor of this app
+What is the output of the following C code:
+  void main()
+{
+  printf("Tarun");
+}
 *
-2.Choose the odd one out
+Choose the odd one out
 *
-3.Choose the different one
+Choose the different one
 *
-4.Choose the unique one
+Choose the unique one
+*
+Hello this is  a sample question and the answer to this is pretty much straight
+Forward its just option b
+*
+Hello this is one more sample question and the answer to this question too is prettry straight forward like I have said it's option d
+*
+Hello get lost
+Okay
+*
+Hey this is any random one that just sucks 
+okay
+*
+Final Random Question
+The answer to this is option 3
 *

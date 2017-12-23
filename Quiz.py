@@ -14,17 +14,24 @@ def each_chunck(stream,seperator):
             break
         else:
             yield part
-n=4
-s=[0]*n
-t=[0]*n
-file=open("Questions.txt",'r')
-o=open("Options.txt",'r')
-op=o.readlines()
-op=[x.strip() for x in op]
+try:
+    file=open("Questions.txt",'r')
+    o=open("Options.txt",'r')
+except:
+    print("Insufficient Access")
+    exit(0)
 c=[]
+op=[]
 for chunk in each_chunck(file,seperator='*\n'):
     c.append(chunk)
 del c[0]
+for chunk in each_chunck(o,seperator='*\n'):
+    op.append(chunk)
+del op[0]
+n=len(op)
+print(n)
+s=[0]*n
+t=[0]*n
 for i in range(0,n):
     num=random.randint(0,n-1)
     while(s[num]==1):
