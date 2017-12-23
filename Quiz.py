@@ -1,3 +1,5 @@
+#All rights reserved to @ Tarun Gudipati
+#Program is Developed by @Tarun Gudipati and any illegal use of this code is punishable
 import random
 #n=int(input("Enter upper bound: "))
 def each_chunck(stream,seperator):
@@ -29,9 +31,11 @@ for chunk in each_chunck(o,seperator='*\n'):
     op.append(chunk)
 del op[0]
 n=len(op)
-print(n)
 s=[0]*n
 t=[0]*n
+if n==0:
+    k=input("No Questions Set in the repository of Questions")
+    exit(0)
 for i in range(0,n):
     num=random.randint(0,n-1)
     while(s[num]==1):
